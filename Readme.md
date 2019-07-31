@@ -10,9 +10,9 @@ INSTALLATION
 ============
 
 install the dependencies:
-- youtube-dl
-- jq
-- gnu parallel 
+- `youtube-dl`
+- `jq`
+- gnu `parallel`
 
 
 RUNNING
