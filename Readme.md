@@ -30,7 +30,7 @@ alternatively just execute `./run.sh`
 EXAMPLE
 =======
 
-take a look at `chimperium.html` in this repo
+take a look at [http://cyber.vodka/chimperium.html](http://cyber.vodka/chimperium.html) 
 
 
 LICENSE
