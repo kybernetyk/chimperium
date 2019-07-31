@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 
 class Video:
@@ -97,7 +98,7 @@ def mk_html_lineitem(vid):
 	return html
 
 def make_html(vids):
-	html = "<html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width'><title>chimpire</title></head>"
+	html = "<html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width'><title>C H I M P E R I U M</title></head>"
 	html += '''<style>
 				body {background-color: #f3ffbd; color: #247ba0; font-family: monospace; }
 				a {color: #ff1654;}
@@ -120,9 +121,11 @@ def make_html(vids):
 videos = load_videos("videos.json")
 vids = sorted(videos, key=lambda x: x.ep_num, reverse=True)
 html = make_html(vids)
-with open("index.html", "w") as index:
+with open("chimperium.html", "w") as index:
 	index.write(html)
 print("done")
 
 # for v in vids:
 # 	print("https://youtu.be/"+ v.url + " : " + v.guest + " => " + v.guest_who)
+
+
