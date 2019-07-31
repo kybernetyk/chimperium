@@ -5,6 +5,7 @@ Do you like Joe "Joe Rogan" Rogan's youtube channel but always wonder who the gu
 
 Well, I got a treat for you: This little thingy here combs through Joe "Joe Rogan" Rogan's youtube channel and extracts all the info about each episodes guest. And everything is then nicely packed into a single HTML file in a nice table with nice youtube links. W00t
 
+Bonus: MMA episodes are automagically filtered out because no one likes that shit, Joe
 
 INSTALLATION
 ============
